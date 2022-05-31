@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Signum Oasis</title>
+	<subtitle>A documentation project for the Signum Crypto Currency.</subtitle>
+	<link href="https://signumoasis.xyz/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://signumoasis.xyz"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-02-01T00:00:00+00:00</updated>
+	<id>https://signumoasis.xyz/atom.xml</id>
+	<entry xml:lang="en">
+		<title>damccull</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/authors/damccull/" type="text/html"/>
+		<id>https://signumoasis.xyz/authors/damccull/</id>
+		<content type="html">&lt;p&gt;Hobby programmer, creator of this site, and interested in Signum crypto coin.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;damccull&quot;&gt;@damccull&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hello World</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/blog/hello-world/" type="text/html"/>
+		<id>https://signumoasis.xyz/blog/hello-world/</id>
+		<content type="html">&lt;p&gt;We&#x27;ve just come online and hope to provide up to date, easy to read documentation for the Signum
+crypto currency. The goal to provide documentation for the technical back end such as the peer-to-peer API, the user and app API,
+and the way data is cryptographically signed and stored.&lt;&#x2F;p&gt;
+&lt;p&gt;This site is not necessarily intended for user-based tutorials, and the focus for contributers should not be on providing how-to&#x27;s
+for various Signum related software. Instead, it&#x27;s designed to allow developers to understand the Signum node and its interactions.&lt;&#x2F;p&gt;
+&lt;p&gt;Please enjoy learning about Signum software.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Code of Conduct</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/docs/contributing/code-of-conduct/" type="text/html"/>
+		<id>https://signumoasis.xyz/docs/contributing/code-of-conduct/</id>
+		<content type="html">&lt;h2 id=&quot;it-s-simple&quot;&gt;It&#x27;s Simple&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Be kind to everyone, no matter what.&lt;&#x2F;li&gt;
+&lt;li&gt;If you are not, you may not participate.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>How to Contribute</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/docs/contributing/how-to-contribute/" type="text/html"/>
+		<id>https://signumoasis.xyz/docs/contributing/how-to-contribute/</id>
+		<content type="html">&lt;p&gt;👉 Make sure to read the &lt;a href=&quot;..&#x2F;code-of-conduct&#x2F;&quot;&gt;Code of Conduct&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;contribute-to-signum-oasis&quot;&gt;Contribute to Signum Oasis&lt;&#x2F;h2&gt;
+&lt;p&gt;👉 The Signum Oasis website code can be found on &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;signum-rust&#x2F;signumoasis.xyz&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Follow the existing formatting as well as you can&lt;&#x2F;li&gt;
+&lt;li&gt;Ensure code and documents are readable&lt;&#x2F;li&gt;
+&lt;li&gt;Send a Pull Request&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;create-an-issue&quot;&gt;Create an issue&lt;&#x2F;h3&gt;
+&lt;p&gt;👉 Create an issue for the website at (https:&#x2F;&#x2F;github.com&#x2F;signum-rust&#x2F;signumoasis.xyz&#x2F;issues). Please search for your issue to see if it exists before creating a new one.&lt;&#x2F;p&gt;
+&lt;p&gt;Examples of good issues:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Typo or correction to website or documentation&lt;&#x2F;li&gt;
+&lt;li&gt;Request for new documentation&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Block</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/docs/data/block/" type="text/html"/>
+		<id>https://signumoasis.xyz/docs/data/block/</id>
+		<content type="html">&lt;h2 id=&quot;json-model&quot;&gt;JSON Model&lt;&#x2F;h2&gt;
+&lt;p&gt;NOTE: This is the base json model in the BRS Transaction class. The API contains additional fields that will be discussed on the API page.&lt;&#x2F;p&gt;
+&lt;p&gt;The fields are listed here in the order they are seen in the BRS software. However, json does not require them in this order, so long as they are present.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;version&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Timestamp&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;timestamp&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Previous Block ID&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;previousBlock&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (&lt;code&gt;Unsigned 64 bit integer&lt;&#x2F;code&gt; as &lt;code&gt;String&lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Total Amount of Signa in NQT&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;totalAmountNQT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Total Fee in NQT&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;totalFeeNQT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Payload Length&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;payloadLength&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Payload Hash&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;payloadHash&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Generator Public Key&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;generatorPublicKey&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Generation Signature&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;generationSignature&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Previous Block Hash&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Only if block version &amp;gt; 1&lt;&#x2F;li&gt;
+&lt;li&gt;Key: &lt;code&gt;previousBlockHash&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Block Signature&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;blockSignature&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Transactions&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;transactions&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;array of object&lt;&#x2F;code&gt; (See &lt;a href=&quot;&#x2F;docs&#x2F;data&#x2F;transaction&quot;&gt;Transaction&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Nonce&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;nonce&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (&lt;code&gt;Unsigned 64 bit integer&lt;&#x2F;code&gt; as &lt;code&gt;String&lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Base Target&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;baseTarget&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (&lt;code&gt;Unsigned 64 bit integer&lt;&#x2F;code&gt; as &lt;code&gt;String&lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Block ATs&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;blockATs&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;structure-of-bytes-representation&quot;&gt;Structure of Bytes Representation&lt;&#x2F;h2&gt;
+&lt;p&gt;Here is the list of fields that should exist on a block in memory to properly create the hash and forge the block.&lt;&#x2F;p&gt;
+&lt;p&gt;Notes about the structure:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The byte order must be Little Endian.&lt;&#x2F;li&gt;
+&lt;li&gt;The bytes must be directly concatenated in a single large buffer.&lt;&#x2F;li&gt;
+&lt;li&gt;The length of the buffer will change depending on the block version and if any ATs are added.&lt;&#x2F;li&gt;
+&lt;li&gt;There are additional fields related to blocks that do not get included in this, but are necessary to store.
+See the database structures.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block Version Number&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;What block version this block is. As the protocol and data evolve with newer versions of the software, this will increment.&lt;&#x2F;li&gt;
+&lt;li&gt;Current version: &lt;code&gt;3&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Timestamp&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The time this block was forged, based on the start of the blockchain at 11 August 2014, Time: 02:00:00.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Add the format of this timestamp&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Previous Block ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The first 8 bytes of the previous block hash converted into a number.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Add the datatype of the number&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Total amount of Signa&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Block version &amp;lt; 3
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value: total amount of NQT &#x2F; 100000000&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Block version &amp;gt;= 3
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value: total amount of NQT&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;The sum of the coins sent in transactions in this block.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Total amount of Fees charged&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Block version &amp;lt; 3
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value: total amount of NQT &#x2F; 100000000&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Block version &amp;gt;= 3
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value: total amount of NQT&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;The sum of the fees charged for messages, transactions, and smart contracts running in this block.&lt;&#x2F;li&gt;
+&lt;li&gt;This amount goes to the account that forged this block.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Length of Payload&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The total number of bytes of the entire payload field.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Payload Hash&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;32 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;A SHA-256 hash of all the data in this block&#x27;s payload field.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Forger Public Key&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;32 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The public key of the account that forged this block.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generation Signature&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;32 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The 32-byte generation signature used to forge this block.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Previous Block Hash&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Block version &amp;gt; 1&lt;&#x2F;li&gt;
+&lt;li&gt;Datatype: &lt;code&gt;32 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The SHA-256 hash of the contents of the previous block.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Nonce&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The nonce number used to forge this block.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Define this better&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AT Bytes&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Raw bytes, length of AT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The bytes of an AT that may be present in this block&lt;&#x2F;li&gt;
+&lt;li&gt;Optional&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Rename this field maybe and reword its description&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block Signature&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;64 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;A hash generated from the forger&#x27;s private key and the block contents.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;database-fields-in-brs&quot;&gt;Database Fields in BRS&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;as of v3.3.2&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE: THIS SECTION IS INCOMPLETE&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This is a list of the fields seen in the node database along with their database built-in datatypes.
+This is unlikely to change with versions of the node unless a new block version is debuted.&lt;&#x2F;p&gt;
+&lt;!-- * **List of Transaction IDs**
+    * A list of all the transactions&#x27; IDs that are included in this block.
+* **Cumulative Difficulty**
+    * This is used to prevent nothing-at-stake problems during potential forks.
+    * Calculated with `PreviousCumulativeDifficulty + (18446744073709551616 &#x2F; base target)`
+* **Base Target**
+    * Base target to be used when forging this block
+    * _TODO: Reword this definition to remove the recursion_
+* **Height**
+    * The height of this block in the chain.
+* **Block ID**
+    * The first 8 bytes of this block&#x27;s contents converted into a number.
+    * _TODO: Add the datatype of the number_ --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Database ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;db_id&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;id&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Version&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;version&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;INTEGER&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Timestamp&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;timestamp&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;INTEGER&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Previous Block ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;previous_block_id&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;INTEGER&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Total Amount&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;total_amount&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Total Fee&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;total_fee&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Payload Length&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;payload_length&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;INTEGER&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generator Public Key&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;generator_public_key&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Previous Block Hash&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;previous_block_hash&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cumulative Difficulty&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;cumulative_difficulty&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Base Target&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;base_target&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Next Block ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;next_block_id&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Height&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;height&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;INTEGER&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generation Signature&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;generation_signature&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block Signature&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;block_signature&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Payload Hash&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;payload_hash&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Generator ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;generator_id&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Nonce&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;none&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;BIGINT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Block ATs&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Field name: &lt;code&gt;ats&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Data type: &lt;code&gt;VARBINARY&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Transaction</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/docs/data/transaction/" type="text/html"/>
+		<id>https://signumoasis.xyz/docs/data/transaction/</id>
+		<content type="html">&lt;h2 id=&quot;json-model&quot;&gt;JSON Model&lt;&#x2F;h2&gt;
+&lt;p&gt;NOTE: This is the base json model in the BRS Transaction class. The API contains additional fields that will be discussed on the API page.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Type&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;type&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt; (&lt;code&gt;byte&lt;&#x2F;code&gt; encoded as a number)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Sub Type&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;subtype&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt; (&lt;code&gt;byte&lt;&#x2F;code&gt; encoded as a number)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Timestamp&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;timestamp&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Deadline&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;deadline&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Sender Public Key&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;senderPublicKey&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Recipient&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;recipient&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (&lt;code&gt;Unsigned 64 bit integer&lt;&#x2F;code&gt; as &lt;code&gt;String&lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Amount in NQT&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;amountNQT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Fees Amount in NQT&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;feeNQT&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Referenced Transaction Full Hash&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;referencedTransactionFullHash&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Figure out if this should be byte array maybe&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;ecBlockHeight&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;ecBlockHeight&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;ecBlockId&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;ecBlockId&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (&lt;code&gt;Unsigned 64 bit integer&lt;&#x2F;code&gt; as &lt;code&gt;String&lt;&#x2F;code&gt;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Signature&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;signature&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;string&lt;&#x2F;code&gt; (Hex encoded bytes)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Attachment&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;attachment&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;array of object&lt;&#x2F;code&gt; (JSON object array)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Version&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Key: &lt;code&gt;version&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Value Datatype: &lt;code&gt;number&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;structure-of-bytes-representation&quot;&gt;Structure of Bytes Representation&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transaction Type&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Byte&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The type of transaction. &lt;a href=&quot;https:&#x2F;&#x2F;signumoasis.xyz&#x2F;docs&#x2F;data&#x2F;transaction&#x2F;#transaction-types-and-subtypes&quot;&gt;(See Transaction Types and Subtypes section)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transaction Subtype&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;byte&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The subtype of the transaction. &lt;a href=&quot;https:&#x2F;&#x2F;signumoasis.xyz&#x2F;docs&#x2F;data&#x2F;transaction&#x2F;#transaction-types-and-subtypes&quot;&gt;(See Transaction Types and Subtypes section)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Timestamp&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The time of the transaction in &lt;em&gt;&lt;UNIT&gt;&lt;&#x2F;em&gt; since the beginning of the chain.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: LIST TIMEZONE, PROBABLY UTC&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deadline&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 16 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The deadline to forge a block including this transaction. It will be lost if this passes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Signature&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;32 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;This depends on the block&#x27;s height and when a certain update was released at block 255000.
+&lt;ul&gt;
+&lt;li&gt;If it is signed, append the public key of the sender.&lt;&#x2F;li&gt;
+&lt;li&gt;If not signed but &lt;em&gt;before&lt;&#x2F;em&gt; AT_FIX_BLOCK_4 upgrade, append the sender&#x27;s public key.&lt;&#x2F;li&gt;
+&lt;li&gt;If not signed but &lt;em&gt;after&lt;&#x2F;em&gt; the AT_FIX_BLOCK_4 upgrade, append a &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt; that is the sender&#x27;s account ID, followed by 24 empty bytes (all zeros).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Define AT_FIX_BLOCK_4 better&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Recipient&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Depends on whether the transaction has a specified single recipient.
+&lt;ul&gt;
+&lt;li&gt;If a recipient exists, include the recipient&#x27;s ID.&lt;&#x2F;li&gt;
+&lt;li&gt;If no recipient exists, include the &#x27;Zero&#x27; account. The value should just be &lt;code&gt;0&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Amount of Signa being Sent in this Transaction&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;This field depends on the height of the block for both datatype and value.&lt;&#x2F;li&gt;
+&lt;li&gt;Block height &amp;gt;= Constants.NQT_BLOCK (&lt;code&gt;0&lt;&#x2F;code&gt; for Signum)
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Amount in NQT.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Block height &amp;lt; Constants.NQT_BLOCK
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;Amount in NQT divided by One Signa in NQT (100,000,000).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Remove the conditional if &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;signum-network&#x2F;signum-node&#x2F;pull&#x2F;596&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;signum-network&#x2F;signum-node&#x2F;pull&#x2F;596&lt;&#x2F;a&gt; is merged&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Amount of Fees for this Transaction&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;This field depends on the height of the block for both datatype and value.&lt;&#x2F;li&gt;
+&lt;li&gt;Block height &amp;gt;= Constants.NQT_BLOCK (&lt;code&gt;0&lt;&#x2F;code&gt; for Signum)
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Amount in NQT.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Block height &amp;lt; Constants.NQT_BLOCK
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;Amount in NQT divided by One Signa in NQT (100,000,000).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Remove the conditional if &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;signum-network&#x2F;signum-node&#x2F;pull&#x2F;596&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;signum-network&#x2F;signum-node&#x2F;pull&#x2F;596&lt;&#x2F;a&gt; is merged&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Referenced Transaction Full Hash&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;This field depends on the height of the block for both datatype and value.&lt;&#x2F;li&gt;
+&lt;li&gt;Block height &amp;gt;= Constants.NQT_BLOCK (&lt;code&gt;0&lt;&#x2F;code&gt; for signum)
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;32 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The full hash bytes of the referenced transaction, or 32 empty bytes if no transaction is referenced.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Block height &amp;lt; Constants.NQT_BLOCK
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt; &lt;&#x2F;li&gt;
+&lt;li&gt;The referenced transaction ID or &lt;code&gt;0&lt;&#x2F;code&gt; if there is no referenced transaction.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Remove the conditional if &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;signum-network&#x2F;signum-node&#x2F;pull&#x2F;596&quot;&gt;https:&#x2F;&#x2F;github.com&#x2F;signum-network&#x2F;signum-node&#x2F;pull&#x2F;596&lt;&#x2F;a&gt; is merged&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transaction Signature&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;64 raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;The signature for this transaction.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transaction Flags&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optional: Include only if transaction version is greater than zero.&lt;&#x2F;li&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;A set of bit flags encoded into a single integer via a bitwise OR:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;00000001&lt;&#x2F;code&gt; = &lt;em&gt;&lt;code&gt;message&lt;&#x2F;code&gt;&lt;&#x2F;em&gt; flag &lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;00000010&lt;&#x2F;code&gt; = &lt;em&gt;&lt;code&gt;encryptedMessage&lt;&#x2F;code&gt;&lt;&#x2F;em&gt; flag&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;00000100&lt;&#x2F;code&gt; = &lt;em&gt;&lt;code&gt;publicKeyAnnouncement&lt;&#x2F;code&gt;&lt;&#x2F;em&gt; flag&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;00001000&lt;&#x2F;code&gt; = &lt;em&gt;&lt;code&gt;encryptToSelfMessage&lt;&#x2F;code&gt;&lt;&#x2F;em&gt; flag&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transaction ec Block Height&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optional: Include only if transaction version is greater than zero.&lt;&#x2F;li&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 32 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Figure out what &lt;code&gt;ecBlockHeight&lt;&#x2F;code&gt; is&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Transaction ec Block ID&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optional: Include only if transaction version is greater than zero.&lt;&#x2F;li&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Signed 64 bit integer&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;TODO: Figure out what &lt;code&gt;ecBlockId&lt;&#x2F;code&gt; is&lt;&#x2F;em&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Appendages&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Datatype: &lt;code&gt;Raw bytes&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;???&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;database-fields-in-brs&quot;&gt;Database Fields in BRS&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;transaction-types-and-subtypes&quot;&gt;Transaction Types and Subtypes&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Payment&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;Ordinary Payment
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Ordinary Payment Multi-out
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Ordinary Payment Same-out
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;2&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Messaging&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Arbitray Message&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Alias Assignment&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Account Info&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;5&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Alias Sell&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;6&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Alias Buy&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;7&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Colored Coins&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;2&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Asset Issuance&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Asset Transfer&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Ask Order Placement&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;2&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Bid Order Placement&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;3&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Ask Order Cancellation&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;4&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Bid Order Cancellation&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;5&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Asset Mint&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;6&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Add Treasury Account&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;7&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Distribute to Holders&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;8&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Digital Goods&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;3&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Listing&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Delisting&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Price Change&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;2&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Quantity Change&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;3&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Purchase&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;4&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Delivery&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;5&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Feedback&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;6&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Refund&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;7&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Account Control&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;4&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Effective Balance Leasing&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Mining&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;20&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Reward Recipient Assignment&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Commitment Add&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Commitment Remove&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;2&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Payment&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;21&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Escrow Creation&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Escrow Sign&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Escrow Result&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;2&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Subscription Subscribe&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;3&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Subscription Cancel&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;4&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;Subscription Payment&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;5&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Automated Transaction&lt;&#x2F;strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;22&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Subtypes:
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Creation&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;0&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;em&gt;NXT Payment&lt;&#x2F;em&gt;
+&lt;ul&gt;
+&lt;li&gt;Value: &lt;code&gt;1&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Introduction</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/docs/getting-started/introduction/" type="text/html"/>
+		<id>https://signumoasis.xyz/docs/getting-started/introduction/</id>
+		<content type="html">&lt;h2 id=&quot;what-is-signum&quot;&gt;What is Signum?&lt;&#x2F;h2&gt;
+&lt;p&gt;Signum is a distributed blockchain technology based on a proof of capacity and stake instead of a proof of work.
+Similar to other blockchains, Signum has its own digital currency called Signa. However, it also hosts hundreds of
+other &#x27;tokens&#x27; that can be traded just like Signa with a built-in marketplace.&lt;&#x2F;p&gt;
+&lt;p&gt;Signum has smart contracts built in that allow the creation of games, decentralized exchanges, lotteries, and any
+other technology that can benefit from blockchain. The Signum platform&#x27;s capability, open development, constant evolution,
+and low energy cost make it a particularly effective choice to move into the future of blockchain technologies.&lt;&#x2F;p&gt;
+&lt;p&gt;This documentation is designed to serve as a reference for the programmers building the Signum platform. As such, it
+may be beyond the understanding many users, and those interested in the user side should check out &lt;a href=&quot;https:&#x2F;&#x2F;www.signum.network&#x2F;&quot;&gt;https:&#x2F;&#x2F;www.signum.network&#x2F;&lt;&#x2F;a&gt; instead, or &lt;a href=&quot;https:&#x2F;&#x2F;discord.gg&#x2F;8XpJqxsD3F&quot;&gt;join the official Signum discord server&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;p&gt;Start here for a basic overview of the Signum node and its protocols. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;go-further&quot;&gt;Go further&lt;&#x2F;h3&gt;
+&lt;p&gt;Contributing and Help.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;contributing&quot;&gt;Contributing&lt;&#x2F;h3&gt;
+&lt;p&gt;Find out how to contribute to Signum Oasis. &lt;a href=&quot;..&#x2F;..&#x2F;contributing&#x2F;how-to-contribute&#x2F;&quot;&gt;Contributing →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;help&quot;&gt;Help&lt;&#x2F;h3&gt;
+&lt;p&gt;Get help on Doks. &lt;a href=&quot;..&#x2F;..&#x2F;help&#x2F;faq&#x2F;&quot;&gt;Help →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>FAQ</title>
+		<published>2022-02-01T00:00:00+00:00</published>
+		<updated>2022-02-01T00:00:00+00:00</updated>
+		<link href="https://signumoasis.xyz/docs/help/faq/" type="text/html"/>
+		<id>https://signumoasis.xyz/docs/help/faq/</id>
+		<content type="html">&lt;h2 id=&quot;what-is-signum&quot;&gt;What is Signum?&lt;&#x2F;h2&gt;
+&lt;p&gt;Signum is a proof-of-capacity-and-stake crypto currency. It is less electrically demanding than almost any other coin
+and encourages the recycling of hard drives, extending the useful life of even dying hard drives, and delaying their
+entry into landfills.&lt;&#x2F;p&gt;
+&lt;p&gt;See the official &lt;a href=&quot;http:&#x2F;&#x2F;signum.network&quot;&gt;Signum Network website&lt;&#x2F;a&gt; for more information.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>
